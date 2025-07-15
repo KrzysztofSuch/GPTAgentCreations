@@ -2,22 +2,14 @@
 
 ## Calculator
 
-This repository includes a simple command-line calculator written in Python.
+This repository includes a simple command-line calculator written in C#.
 
 ### Usage
 
-Run the script with Python 3 and follow the prompts:
+Build and run the program using the .NET SDK:
 
 ```bash
-python calculator.py
+dotnet run -- "3 + 5"
 ```
 
-Enter expressions such as `2 + 3 * 4` or `10 / 3`. Type `quit` or `exit` to end the program.
-
-You can also evaluate a single expression directly:
-
-```bash
-python calculator.py "3 + 5"
-```
-
-No additional dependencies are required beyond the Python standard library.
+If no expression is provided as arguments, the calculator starts in interactive mode. Enter expressions such as `2 + 3 * 4` or `10 / 3` and type `quit` or `exit` to end the program.
